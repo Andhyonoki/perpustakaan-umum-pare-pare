@@ -1,0 +1,107 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+/* Main content */
+.main-content {
+  background-color: white;
+  border: 2px solid #007BFF;
+  border-radius: 6px;
+  margin: 20px;
+  padding: 0;
+}
+
+.header {
+  background-color: #2D73D2;
+  color: white;
+  padding: 15px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.header h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.sub-header {
+  color: #C736D9;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Form Section */
+.form-section {
+  border: 1px dashed #FF8C8C;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.form-section h5 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border: 2px solid #8A2BE2;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #2D73D2;
+  box-shadow: 0 0 6px rgba(45, 115, 210, 0.3);
+}
+
+.btn-submit {
+  background-color: #2D73D2;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 6px;
+}
+
+.btn-submit:hover {
+  background-color: #1e5ab0;
+}
+
+.file-label {
+  font-weight: bold;
+}
+
+/* ==============================
+   RESPONSIVE SETTINGS
+============================== */
+@media (max-width: 991px) {
+  .main-content {
+    margin: 10px;
+  }
+
+  .form-section {
+    margin: 15px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header h3 {
+    font-size: 18px;
+  }
+
+  .form-section h5 {
+    font-size: 16px;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+
+  .btn-submit {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+}
